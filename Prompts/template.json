@@ -1,0 +1,10 @@
+{
+  "name": "research_paper_explainer",
+  "input_variables": ["length_input", "paper_input", "style_input"],
+  "optional_variables": [],
+  "partial_variables": {},
+  "template": "Summarize the research paper titled: {paper_input}\nExplanation style: {style_input}\nExplanation length: {length_input}\n\nExplain the research question, method, findings, and limitations. Include equations only if present in the provided paper text. Use intuitive analogies and small code examples where helpful. Do not fabricate details, results, citations, or equations. A title alone is insufficient for a reliable paper-specific summary.",
+  "template_format": "f-string",
+  "validate_template": true,
+  "_type": "prompt"
+}

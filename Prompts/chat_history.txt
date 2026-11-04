@@ -1,0 +1,3 @@
+Example transcript for reference only. The runnable demo creates typed LangChain messages in message_placeholder.py.
+User: I want to request a refund for my order.
+Assistant: I can help you understand the refund process. Please check the store's official policy.
